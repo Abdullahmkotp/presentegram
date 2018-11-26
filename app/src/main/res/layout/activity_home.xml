@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.billy.presentegram.HomeActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                tools:ignore="RelativeOverlap" />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_profile_pic"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/default_pp"
+                android:contentDescription="@string/profile"
+                app:civ_border_color="@android:color/white"
+                app:civ_border_width="2dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_home_videos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <ProgressBar
+            android:id="@+id/pb_home"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:theme="@style/ProgressBar"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/no_video_home_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_no_vid_home"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no_video"
+                android:contentDescription="@string/no_video_recorded_label" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_video_recorded_label"
+                android:textColor="@color/secondaryText"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@id/iv_no_vid_home"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

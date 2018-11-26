@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "162754201241",
+    "firebase_url": "https://presentegram.firebaseio.com",
+    "project_id": "presentegram",
+    "storage_bucket": "presentegram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162754201241:android:d3d278c02fc396a9",
+        "android_client_info": {
+          "package_name": "com.billy.presentegram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162754201241-fbljgvjvaft2ht9ajeevga8aj7lirdq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1toQmgcE44GIvBpVNAqkDGz3YFBRcqhk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

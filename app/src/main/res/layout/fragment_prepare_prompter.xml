@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.billy.presentegram.PreparePrompterFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:id="@+id/tv_prompter_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/prompter_text_label"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            android:labelFor="@id/et_prompter_text" />
+
+        <EditText
+            android:id="@+id/et_prompter_text"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_prompter_label"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_text_color_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_color_label"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp" />
+
+        <com.rtugeek.android.colorseekbar.ColorSeekBar
+            android:id="@+id/color_seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:showAlphaBar="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:layout_margin="8dp"
+            app:colorSeeds="@array/custom_color" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_text_size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_size_label"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/rg_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="21dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_text_size_1x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/text_size_label_1x"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rb_text_size_2x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="@string/text_size_label_2x"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rb_text_size_3x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="@string/text_size_label_3x"
+                android:textSize="18sp" />
+
+
+            <RadioButton
+                android:id="@+id/rb_text_size_4x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="@string/text_size_label_4x"
+                android:textSize="18sp" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

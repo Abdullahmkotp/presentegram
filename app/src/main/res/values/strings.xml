@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Presentegram</string>
+    <string name="email" translatable="true">E-mail</string>
+    <string name="password" translatable="true">Password</string>
+    <string name="sign_in" translatable="true">Sign In</string>
+    <string name="create_account" translatable="true">Create account?</string>
+    <string name="icon" translatable="false">icon</string>
+    <string name="username" translatable="true">Username</string>
+    <string name="gender" translatable="true">Gender</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="age" translatable="true">Age</string>
+    <string name="dateOfBirth" translatable="true">Birth date</string>
+
+    <string name="date_example" translatable="false"><u>dd/mm/yy</u></string>
+    <string name="register" translatable="true">Register</string>
+    <string name="email_error" translatable="true">Valid email is required</string>
+    <string name="password_error" translatable="true">Password too short, minimum characters 6</string>
+    <string name="birth_date_error" translatable="true">Set Birth Date</string>
+    <string name="username_error" translatable="true">Username too long, Maximum character 15</string>
+    <string name="username_error_short" translatable="true">Username too short</string>
+    <string name="credential_error" translatable="true">Invalid E-mail or password or no internet connection</string>
+    <string name="credential_empty" translatable="true">E-mail and password can not be empty</string>
+    <string name="connection_error" translatable="true">Check Internet Connection</string>
+    <string name="duplicated_email_error" translatable="true">this E-mail might be registered before or not valid</string>
+    <string name="follow" translatable="true">Follow</string>
+    <string name="prompter_text_label" translatable="true">Prompter Text</string>
+    <string name="text_color_label" translatable="true">Text Color</string>
+    <string name="text_size_label" translatable="true">Text Size</string>
+    <string name="text_size_label_1x" translatable="true">1x</string>
+    <string name="text_size_label_2x" translatable="true">2x</string>
+    <string name="text_size_label_3x" translatable="true">3x</string>
+    <string name="text_size_label_4x" translatable="true">4x</string>
+    <string name="Video_title_label" translatable="true">Video Title</string>
+    <string name="upload_error" translatable="true">Upload Failed Check Internet Connection</string>
+    <string name="upload_success" translatable="true">Upload Completed Successfully</string>
+    <string name="video_title_null" translatable="true">Video title is mandatory</string>
+    <string name="invalid_video_title" translatable="true">Video title too long, Maximum character 20</string>
+    <string name="following" translatable="true">Following</string>
+    <string name="unfollowing" translatable="true">Unfollowing</string>
+    <string name="postdelete" translatable="true">Post deleted</string>
+    <string name="sharing_post" translatable="true">Sharing Post</string>
+    <string name="no_video_recorded_label" translatable="true">No video recorded</string>
+    <string name="upload_video" translatable="true">Upload video</string>
+    <string name="logout" translatable="true">logout</string>
+    <string name="profile_picture_updated" translatable="true">Profile picture updated</string>
+    <string name="storage_accessed" translatable="true">allowed for reading external storage</string>
+    <string name="storage_permission" translatable="true">allow access to external storage?</string>
+    <string name="ok" translatable="true">OK</string>
+    <string name="cancel" translatable="true">Cancel</string>
+    <string name="select_picture" translatable="true">Select Picture</string>
+    <string name="camera_accessed" translatable="true">allowed for access camera</string>
+    <string name="cannot_access_camera" translatable="true">Cannot access the camera.</string>
+    <string name="camera2_not_supported" translatable="true">this device did not support current camera features.</string>
+    <string name="failed_to_open_camera" translatable="true">Failed to open camera</string>
+    <string name="failed_to_record" translatable="true">Failed to record</string>
+    <string name="ready_to_share" translatable="true">Video is ready to share</string>
+    <!-- app keys-->
+    <string name="userId" translatable="false">userId</string>
+    <string name="profile" translatable="true">profile</string>
+    <string name="record_video" translatable="true">Record Video</string>
+    <string name="profile_picture" translatable="true">Profile Picture</string>
+    <string name="share" translatable="true">Share</string>
+    <string name="play">play</string>
+
+
+</resources>
