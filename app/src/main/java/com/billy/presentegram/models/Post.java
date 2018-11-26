@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.models;
 
 import com.google.firebase.database.Exclude;
 

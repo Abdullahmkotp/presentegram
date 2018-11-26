@@ -1,12 +1,14 @@
-package com.billy.presentegram;
+package com.billy.presentegram.widget;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
+import com.billy.presentegram.R;
+import com.billy.presentegram.models.Following;
+import com.billy.presentegram.models.User;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

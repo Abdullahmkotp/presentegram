@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.ui;
 
 
 
@@ -17,6 +17,8 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 
+import com.billy.presentegram.R;
+import com.billy.presentegram.UploadVideoService;
 import com.google.android.exoplayer2.ExoPlayerFactory;
 import com.google.android.exoplayer2.SimpleExoPlayer;
 import com.google.android.exoplayer2.source.ExtractorMediaSource;

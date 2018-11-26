@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.ui;
 
 import android.content.Intent;
 import android.os.Parcelable;
@@ -11,6 +11,9 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
+import com.billy.presentegram.R;
+import com.billy.presentegram.models.Post;
+import com.billy.presentegram.models.User;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

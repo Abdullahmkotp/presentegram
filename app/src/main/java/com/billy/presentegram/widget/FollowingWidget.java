@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.widget;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -7,6 +7,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.TaskStackBuilder;
 import android.widget.RemoteViews;
+
+import com.billy.presentegram.R;
+import com.billy.presentegram.ui.ProfileActivity;
 
 
 public class FollowingWidget extends AppWidgetProvider {

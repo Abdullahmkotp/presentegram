@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.widget;
 
 import android.content.Intent;
 import android.widget.RemoteViewsService;

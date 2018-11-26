@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HomeActivity"
+            android:name=".ui.HomeActivity"
             android:launchMode="singleTask"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -27,24 +27,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignInActivity"
+            android:name=".ui.SignInActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".RegistrationActivity"
-            android:parentActivityName=".SignInActivity"
+            android:name=".ui.RegistrationActivity"
+            android:parentActivityName=".ui.SignInActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ProfileActivity"
-            android:parentActivityName=".HomeActivity" />
+            android:name=".ui.ProfileActivity"
+            android:parentActivityName=".ui.HomeActivity" />
         <activity
-            android:name=".VideoRecorderActivity"
+            android:name=".ui.VideoRecorderActivity"
             android:screenOrientation="portrait" />
         <service
-            android:name=".FollowingRemoteViewsService"
+            android:name=".widget.FollowingRemoteViewsService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
         <service android:name=".UploadVideoService" />
 
-        <receiver android:name=".FollowingWidget">
+        <receiver android:name=".widget.FollowingWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

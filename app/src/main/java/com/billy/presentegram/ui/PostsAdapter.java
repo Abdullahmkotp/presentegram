@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.ui;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;
@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.billy.presentegram.R;
+import com.billy.presentegram.models.Post;
 import com.google.android.exoplayer2.ExoPlayer;
 import com.google.android.exoplayer2.ExoPlayerFactory;
 import com.google.android.exoplayer2.source.ExtractorMediaSource;

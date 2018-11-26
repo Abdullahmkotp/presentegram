@@ -1,9 +1,13 @@
-package com.billy.presentegram;
+package com.billy.presentegram.ui;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.billy.presentegram.ui.PreparePrompterFragment;
+import com.billy.presentegram.ui.ReviewVideoFragment;
+import com.billy.presentegram.ui.VideoRecorderFragment;
 
 
 /**

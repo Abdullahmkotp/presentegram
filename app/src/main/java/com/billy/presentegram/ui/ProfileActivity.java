@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.ui;
 
 import android.Manifest;
 import android.appwidget.AppWidgetManager;
@@ -31,6 +31,11 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.billy.presentegram.widget.FollowingWidget;
+import com.billy.presentegram.R;
+import com.billy.presentegram.models.Following;
+import com.billy.presentegram.models.Post;
+import com.billy.presentegram.models.User;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;

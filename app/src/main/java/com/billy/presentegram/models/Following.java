@@ -1,8 +1,8 @@
-package com.billy.presentegram;
+package com.billy.presentegram.models;
 
 
 
-class Following {
+public class Following {
 
 
     private String mUserId;

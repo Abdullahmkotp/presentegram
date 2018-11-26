@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.ui;
 
 
 import android.support.design.widget.TabLayout;
@@ -6,6 +6,8 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 
+
+import com.billy.presentegram.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.ui;
 
 
 import android.Manifest;
@@ -30,7 +30,6 @@ import android.support.v4.app.Fragment;
 
 import android.support.v7.app.AlertDialog;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
 import android.util.Size;
 import android.util.SparseIntArray;
 import android.view.LayoutInflater;
@@ -43,6 +42,8 @@ import android.widget.Chronometer;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
+import com.billy.presentegram.R;
 
 import java.io.File;
 import java.io.IOException;

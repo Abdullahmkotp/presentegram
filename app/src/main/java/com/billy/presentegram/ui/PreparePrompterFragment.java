@@ -1,4 +1,4 @@
-package com.billy.presentegram;
+package com.billy.presentegram.ui;
 
 
 import android.os.Bundle;
@@ -13,6 +13,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 
+import com.billy.presentegram.R;
 import com.rtugeek.android.colorseekbar.ColorSeekBar;
 
 import butterknife.BindView;
